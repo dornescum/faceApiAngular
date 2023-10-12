@@ -1,0 +1,12 @@
+<p  style="display: flex; align-content: center; justify-content: center">{{message?.toUpperCase()}}</p>
+<input type="file" (change)="onFileChanged($event)" />
+
+
+<div style="display: flex; align-content: center; justify-content: center">
+  <div >
+    <img [src]="selectedImageUrl" alt="Selected Image" *ngIf="selectedImageUrl" >
+  </div>
+<div>
+  <canvas #canvas></canvas>
+</div>
+</div>

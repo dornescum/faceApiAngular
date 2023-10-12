@@ -17,8 +17,8 @@ Methods:
 - **loadAllowedFaces()**: Loads the allowed images for comparison from a predefined source.
 - **getAllowedFaceDescriptors(allowedFaces: HTMLImageElement[])**: Retrieves descriptors for the allowed faces.
 - **compareWithAllowedFaces(uploadedDescriptor: Float32Array)**: Compares the descriptor of the uploaded face with the descriptors of the allowed faces and returns **true** if the faces match and **false** otherwise.
-- ![Alt Text](/src/assets/readme/allowed1.png);
-- ![Alt Text](/src/assets/readme/allowed2.png);
-- ![Alt Text](/src/assets/readme/denied1.png);
-- ![Alt Text](/src/assets/readme/denied2.png);
+- ![Alt Text](/src/assets/readme/allowed1.png)
+- ![Alt Text](/src/assets/readme/allowed2.png)
+- ![Alt Text](/src/assets/readme/denied1.png)
+- ![Alt Text](/src/assets/readme/denied2.png)
 # faceApiAngular
